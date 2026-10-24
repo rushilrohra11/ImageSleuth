@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+venv/
+ENV/
+.pytest_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.oxlintrc.json
+.npm/
+
+# Local forensic evidence & generated work products (preserves confidentiality)
+storage/evidence/*
+!storage/evidence/.gitkeep
+storage/derived/*
+!storage/derived/.gitkeep
+storage/reports/*
+!storage/reports/.gitkeep
+storage/*.db
+storage/*.db-journal
+
+# Environment / IDE
+.env
+.vscode/
+.idea/
+*.swp
+*.DS_Store
+Thumbs.db
